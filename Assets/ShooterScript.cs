@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // required for new Input System
+using UnityEngine.InputSystem; 
 
 public class Shooter : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class Shooter : MonoBehaviour
 
     void Update()
     {
-        // Use new Input System
+        
         if (Keyboard.current.spaceKey.wasPressedThisFrame || Mouse.current.leftButton.wasPressedThisFrame)
         {
             Shoot();
